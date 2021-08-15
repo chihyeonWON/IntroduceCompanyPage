@@ -97,6 +97,8 @@ footer > a.instar:hover{background:url(../images/social_b_instar_hover.png) no-r
 
 #container .content.this .conbox{max-width:1100px; margin:0 auto; height:100%; overflow:hidden; overflow-y:auto;}
 
+.text_box:nth-child(odd) {text-align:left;}
+.text_box:nth-child(even) {text-align:right;}
 
 
 
