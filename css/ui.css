@@ -89,11 +89,13 @@ footer > a.instar:hover{background:url(../images/social_b_instar_hover.png) no-r
 #container .content:nth-of-type(4){transition-delay:.8s;}
 #container.start .content{top:0;}
 
+.pargrph_tit{margin-bottom:50px; font-size:24px; color:#fff; position:relative;}
+.pargrph_tit::after{content:""; display:block; width:30px; height:8px; background:#ed3140; position:absolute; left:0; bottom:-10px;}
 
+.text_box h4{font-size:40px; color:#d6d4d4; font-weight:700;}
+.text_box p{margin-bottom:50px; color:#ababab; line-height:20px;}
 
-
-
-
+#container .content.this .conbox{max-width:1100px; margin:0 auto; height:100%; overflow:hidden; overflow-y:auto;}
 
 
 
