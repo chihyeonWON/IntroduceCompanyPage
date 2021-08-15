@@ -91,7 +91,7 @@ footer > a.instar:hover{background:url(../images/social_b_instar_hover.png) no-r
 
 .pargrph_tit{margin-bottom:50px; font-size:24px; color:#fff; position:relative;}
 .pargrph_tit::after{content:""; display:block; width:30px; height:8px; background:#ed3140; position:absolute; left:0; bottom:-10px;}
-
+.text_box{position:relative;}
 .text_box h4{font-size:40px; color:#d6d4d4; font-weight:700;}
 .text_box p{margin-bottom:50px; color:#ababab; line-height:20px;}
 
@@ -99,6 +99,9 @@ footer > a.instar:hover{background:url(../images/social_b_instar_hover.png) no-r
 
 .text_box:nth-child(odd) {text-align:left;}
 .text_box:nth-child(even) {text-align:right;}
+
+.text_box:nth-child(1)::after{content:""; display:block; width:206px; height:100%; position:absolute; right:0; top:0; background:url(../images/content_img1.png) no-repeat right top; background-size:206px auto;}
+.text_box:nth-child(1) p {width:100%; padding-right:206px;}
 
 
 
