@@ -104,12 +104,12 @@ footer > a.instar:hover{background:url(../images/social_b_instar_hover.png) no-r
 .text_box:nth-child(1) p {width:100%; padding-right:206px;}
 
 
+.text_box:nth-last-child(1)::before{content:""; display:block; width:150px; height:250px; position:absolute; left:0; top:70px; background:url(../images/content_img2.png) no-repeat right top; background-size:150px;}
+.text_box:nth-last-child(1)::after{content:""; display:block; width:170px; height:280px; position:absolute; right:0; top:-20px; background:url(../images/content_img3.png) no-repeat right top; background-size:170px;}
+.text_box:nth-last-child(1) p{padding:0 200px 0 280px;}
+.text_box:nth-last-child(1) h4{color:#ed3140;}
 
-
-
-
-
-
+#container .content.this .conbox .content_wrap{padding:30px 50px 50px 50px; opacity:1; transition:all 1.7s; transition-delay:.8s;}
 
 
 
